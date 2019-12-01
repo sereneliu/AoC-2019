@@ -1,0 +1,1 @@
+puzzle_input = open('day23.txt', 'r').read().split('\n')
