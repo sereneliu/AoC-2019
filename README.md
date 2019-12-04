@@ -25,3 +25,5 @@ Didn't have time to work on this puzzle day of, so will come back to it when I h
 This one took me awhile longer to solve, mostly due to stupid mistakes. My original solution for part 1 was fast enough, but when I changed stuff for part 2, then it slowed considerably. I will definitely need to come back to this one with a faster solution time.
 
 ## Day 4
+
+For this puzzle, I struggled a lot with how to structure my code properly. It took a long time because I ended up refactoring over and over again. I'm happier with where it is now, but I'm sure there's room for improvement.
