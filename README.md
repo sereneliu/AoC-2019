@@ -25,3 +25,12 @@ Didn't have time to work on this puzzle day of, so will come back to it when I h
 This one took me awhile longer to solve, mostly due to stupid mistakes. My original solution for part 1 was fast enough, but when I changed stuff for part 2, then it slowed considerably. I will definitely need to come back to this one with a faster solution time.
 
 ## Day 4
+
+For this puzzle, I struggled a lot with how to structure my code properly. It took a long time because I ended up refactoring over and over again. I'm happier with where it is now, but I'm sure there's room for improvement.
+
+Well, just looked at the solution thread on Reddit: https://www.reddit.com/r/adventofcode/comments/e5u5fv/2019_day_4_solutions/
+
+As it turns out, I'm not thinking about these puzzles in the right way. My biggest mistake is not taking advantage of built-in functions and I'm basically rewriting a version of it. Sometimes, it's because I'm not aware of what's out there. Clever solutions I've seen in Python include:
+* checking if the sorted password is the same as the original password for the no-decrease requirement
+* checking `2 in map(n.count, n)` - haven't quite figured out why it works but I get the idea of it
+* `sum(function(n) for n in range)` instead of assigning a variable and increasing it on every iteration in the range
